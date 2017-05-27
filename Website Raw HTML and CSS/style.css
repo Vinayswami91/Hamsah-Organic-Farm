@@ -55,13 +55,17 @@ h6 {
   font-size: 4em;
 }
 
-.skills {
+.activities-text {
   display: block;
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 300;
   font-size: 1.5em;
 }
 
+
+
+
+/* Carousel 1*/
 
 #outer {
   height: 100%;
@@ -139,7 +143,7 @@ h6 {
   margin-bottom:-35px;
 }
 
-/*nav*/
+/* Nav */
 
 
 #navbar-toggle-cbox:checked ~ .collapse {
@@ -235,9 +239,9 @@ span.name {
     }
 }
 */
-/*portfolio*/
+/*activities*/
 
-#portfolio {
+#activities {
   color: #233140;
   padding-top: 70px;
   padding-bottom: 70px;
@@ -247,14 +251,14 @@ span.name {
 padding-bottom: 30px;
 }
 
-/*about*/
+/*stories*/
 
-#abouttext {
+#storiestext {
   padding-top:  90px;
   padding-bottom: 70px;
 }
 
-.abouttop {
+.stories-top {
 
   padding-bottom: 50px;
 }
@@ -271,7 +275,7 @@ h2.name {
 }
 
 
-.about {
+.stories {
   display: block;
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 300;
@@ -450,20 +454,20 @@ span.name {
   color: white;
 }
   
-  span.skills {
+  span.activities-text {
   display: block;
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 300;
   font-size: 20px;
 }
-.about {
+.stories {
   display: block;
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 300;
   font-size: 14px;
  }
   
- #abouttext {
+ #stories-text {
   padding-top:  70px;
   padding-bottom: 70px;
 } 
