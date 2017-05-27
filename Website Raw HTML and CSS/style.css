@@ -1,0 +1,541 @@
+body,html {
+  height: 100%;
+  margin: 0;
+  font: 400 15px/1.8 "Lato", sans-serif;
+  color: white;
+  font-size: 20px;
+}
+
+body {
+  postion: relative;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+/*parallax*/
+
+.bgimg-1,
+.bgimg-2 {
+  position: relative;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.bgimg-1 {
+  background-image: url("./images/Hamsah5.jpg");
+  min-height: 100%;
+}
+
+.bgimg-2 {
+  background-image: url("./images/Hamsah7.jpg");
+  min-height: 500px;
+}
+
+
+.solidbg {
+  background-color: white;
+}
+
+.heading {
+  display: block;
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 4em;
+}
+
+.skills {
+  display: block;
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 300;
+  font-size: 1.5em;
+}
+
+
+#outer {
+  height: 100%;
+  padding: 0;
+  margin: 0;
+  z-index: 5;
+}
+#outer {
+  background-color: #003821;
+  position: relative;
+  max-height: 60px;
+  min-width:100%;
+  margin-left:-20px;
+  margin-right:-22px;
+  margin-top:80px;
+}
+#outer * {
+  font-family: Arial, Geneva, SunSans-Regular, sans-serif;
+  font-size: 14px;
+  color: #333;
+  line-height: 22px;
+}
+ 
+#wrapper {
+  background-color: #001910;
+  border-top: 1px solid #003821;
+  width: 100%;
+  height: 50%;
+  margin-top: 10px;
+  position: absolute;
+  left: 0;
+  top: 50%;
+}
+#carousel {
+  margin-top: -100px;
+}
+#carousel div {
+  text-align: center;
+  width: 200px;
+  height: 250px;
+  float: left;
+  position: relative;
+}
+#carousel div img {
+  border: none;
+}
+#carousel div span {
+  display: none;
+}
+#carousel div:hover span {
+  background-color: #333;
+  color: #fff;
+  font-family: Arial, Geneva, SunSans-Regular, sans-serif;
+  font-size: 14px;
+  line-height: 22px;
+  display: inline-block;
+  width: 100px;
+  padding: 2px 0;
+  margin: 0 0 100px -50px;
+  position: absolute;
+  bottom: 30px;
+  left: 50%;
+  border-radius: 3px;
+}
+
+#available{
+  position:relative;
+  background-color:#025e39;
+  max-height:120px;
+  margin:0 -20px 0 -20px;
+}
+
+#fresh{
+  margin-top:80px;
+  margin-bottom:-35px;
+}
+
+/*nav*/
+
+
+#navbar-toggle-cbox:checked ~ .collapse {
+	display: block;
+}
+
+#navbar-toggle-cbox {
+  display:none;
+}
+
+#nav {
+  font-family: 'Roboto Slab', serif;
+  background-color: #001910;
+  opacity: 1.0;
+  padding: 10px 50px 20px 90px;
+  color: white;
+}
+
+.navtext {
+  font-size: 1.1em;
+  color:white;
+  
+}
+
+.navtext:hover {
+  color:#001910;
+  background-color: white;
+}
+
+.navtext:active {
+  color:#001910;
+  background-color: white;
+}
+
+#brand.navtext:focus {
+  color:white;
+  background-color: #001910;
+}
+
+#brand
+{
+  font-size: 1.2em;
+}
+
+span.icon-bar {
+  
+border-top: solid white 1px;}
+
+
+
+/*intro*/
+
+
+
+#logo {
+  display: block;
+  margin: 0 auto 20px;
+  border-radius: 50%;
+  max-height: 370px;
+  width: auto;
+}
+
+#intro {
+ padding-top: 120px;  
+ padding-bottom: 50px;
+
+}
+
+@media (min-height:750px) {
+  #intro
+  {
+    padding-top: 240px;
+    padding-bottom: 70px;
+  }
+}
+
+span.name {
+  display: block;
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 3em;
+  text-align: center;
+  color: white;
+}
+
+/*adjusted padding for bigger screens
+
+@media (min-height: 700px) and (min-width: 1200px) {
+    #intro {
+        padding-top: 200px;  
+        padding-bottom: 50px;
+    }
+}
+*/
+/*portfolio*/
+
+#portfolio {
+  color: #233140;
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
+
+.imgpad {
+padding-bottom: 30px;
+}
+
+/*about*/
+
+#abouttext {
+  padding-top:  90px;
+  padding-bottom: 70px;
+}
+
+.abouttop {
+
+  padding-bottom: 50px;
+}
+ 
+
+
+h2.name {
+  display: block;
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 3em;
+  color: white;
+}
+
+
+.about {
+  display: block;
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 300;
+  font-size: 1.2em;
+}
+
+
+
+/*contact*/
+
+#contactform {
+  padding-top: 70px;
+  padding-bottom: 50px;
+  color: #233140;
+}
+
+.floating-label-form-group {
+  position: relative;
+  margin-bottom: 0;
+  padding-bottom: 0.5em;
+  padding-top: 0.5em;
+  border-bottom: 1px solid #eeeeee;
+}
+
+
+.floating-label-form-group input,
+.floating-label-form-group textarea {
+  z-index: 1;
+  position: relative;
+  padding-right: 0;
+  padding-left: 0;
+  border: none;
+  border-radius: 0;
+  font-size: 1.5em;
+  background: none;
+  box-shadow: none !important;
+  resize: none;
+}
+
+
+/*footer*/
+
+footer .footer-above {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background-color: #142d24;
+}
+
+footer .footer-below {
+  padding: 25px 0;
+  background-color: #001910;
+}
+
+.btn-social {
+  color:white;
+  display: inline-block;
+  height: 50px;
+  width: 50px;
+  border: 2px solid white;
+  border-radius: 100%;
+  text-align: center;
+  font-size: 20px;
+  line-height: 45px;
+}
+
+.btn-outline {
+  font-size: 20px;
+  border: solid 2px white;
+  background: transparent;
+  transition: all 0.3s ease-in-out;
+  margin-top: 15px;
+}
+.btn-outline:hover,
+.btn-outline:focus,
+.btn-outline:active,
+.btn-outline.active {
+  color: #18BC9C;
+  background: white;
+  border: solid 2px white;
+}
+
+
+/*line styling*/
+  
+star-light {
+  border-color: white;
+}
+star-light:after {
+  color: white;
+}
+star-primary {
+  border-color: #233140;
+}
+star-primary:after {
+  color: #233140;
+}
+
+
+.star-new {
+  padding: 0;
+  border: none;
+  border-top: solid white 7px;
+  text-align: center;
+  max-width: 400px;
+  margin: 25px auto 30px;
+}
+
+.star-new:after {
+
+  content: '\f04d';
+  font-family: FontAwesome;
+    display: inline-block;
+  position: relative;
+  top: -0.96em;
+    font-size: 2.5em;
+
+  padding: 0 0.25em;
+}
+
+.colorline
+{
+  border-top: solid #233140 7px;
+}
+
+/*for smaller screens*/
+
+@media (max-width: 768px){
+  
+  body {
+    font-size: 12px;
+  } 
+  
+  
+ #nav {
+  font-size: 1.6em;
+  font-family: 'Roboto Slab', serif;
+  background-color: #001910;
+  opacity: 1.0;
+  padding: 0px 0px 0px 20px;
+  color: white;
+   font-size: 0.9em;
+  
+}
+
+.navtext {
+  font-size: 1.1em;
+  color:white;
+  
+}
+ 
+#brand
+{
+  font-size: 1.3em;
+}
+  
+ #intro {
+ padding-top: 80px;  
+ padding-bottom: 50px;
+  }
+  
+  #logo {
+  display: block;
+  margin: 0 auto 20px;
+  border-radius: 50%;
+  max-height: 250px;
+  width: auto;
+}
+  
+span.name {
+  display: block;
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 35px;
+  text-align: center;
+  color: white;
+}
+  
+  span.skills {
+  display: block;
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 300;
+  font-size: 20px;
+}
+.about {
+  display: block;
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 300;
+  font-size: 14px;
+ }
+  
+ #abouttext {
+  padding-top:  70px;
+  padding-bottom: 70px;
+} 
+  
+.bgimg-1,
+.bgimg-2 {
+  position: relative;
+  background-attachment: scroll;
+  background-size: cover;
+  min-height: auto;
+}
+
+  
+}
+
+/* Carousel 2 */
+
+#wrapper2 {
+  background-color: #F4F0EE;
+  border: 1px solid #ccd;
+  color: black;
+  font-size: 10px;
+  width: 600px;
+  height: 225px;
+  padding-top: 25px;
+  margin: -125px 0 0 -300px;
+  overflow: hidden;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  border-radius: 10px;
+}
+#carousel2 > div {
+  width: 400px;
+  padding: 0 100px;
+  height: 225px;
+  float: left;
+  overflow: hidden;
+}
+#carousel2 img {
+  border: none;
+  display: block;
+  margin: 0 25px 30px 0;
+  float: left;
+}
+#carousel2 h3 {
+  font-size: 30px;
+  line-height: 30px;
+  margin: 20px 0 20px 0;
+}
+ 
+#carousel2 #blue img {
+  margin-top: 50px;
+}
+#carousel2 #pink img {
+  margin-top: 20px;
+}
+#carousel2 #white img {
+  margin-top: 60px;
+}
+ 
+#source {
+  text-align: center;
+  width: 400px;
+  margin: 0 0 0 -200px;
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+}
+#source, #source a {
+  color: black;
+  font-size: 12px;
+}
+
+
