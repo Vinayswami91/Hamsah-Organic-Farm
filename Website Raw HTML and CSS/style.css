@@ -66,7 +66,7 @@ h6 {
 
 
 /* Carousel 1*/
-
+/*
 #outer {
   height: 100%;
   padding: 0;
@@ -142,7 +142,7 @@ h6 {
   margin-top:80px;
   margin-bottom:-35px;
 }
-
+*/
 /* Nav */
 
 
@@ -609,4 +609,53 @@ span.name {
   margin: 0;
 }
 
+/* carousel 4 */
 
+.c4 {
+  min-height: 600px;
+}
+.c4 * {
+  font-family: Arial, Geneva, SunSans-Regular, sans-serif;
+  font-size: 14px;
+  color: #333;
+  line-height: 22px;
+}
+#wrapper4 {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+.caroufredsel_wrapper {
+  width: 100% !important;
+  height: 100% !important;
+}
+#carousel4 div {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  float: left;
+}
+#carousel4 div img {
+  width: auto;
+  height: auto;
+  min-width: 100%;
+  min-height: 100%;
+}
+#text4 {
+  background-color: rgba(255, 255, 255, 0.8);
+  width: 350px;
+  height: 350px;
+  padding: 50px;
+  margin: -225px 0 0 -225px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  z-index: 2;
+  box-shadow: 0 0 50px #000;
+  border-radius: 20px;
+}
+#text4 h4 {
+  font-size: 33px;
+  line-height: 25px;
+  margin: 0 0 20px 0;
+}

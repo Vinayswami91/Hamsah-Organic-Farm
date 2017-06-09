@@ -22,7 +22,7 @@ $(document).ready(function () {
 		}
 	});
 });
-
+  /*
   $(function() {
  
 	var $c = $('#carousel'),
@@ -53,6 +53,37 @@ $(document).ready(function () {
 	}).trigger('resize.example');
  
 	});
+	*/
+  //carousel 4
+
+  $(function() {
+	$('#carousel4').carouFredSel({
+		width: $(window).width(),
+		height: $(window).height(),
+		align: false,
+		items: {
+			visible: 1,
+			width: 'variable',
+			height: 'variable'
+		}
+	});
+ 	$('#carousel4').trigger('configuration', ['auto.fx', 'crossfade']);
+	$(window).resize(function() {
+		var newCss = {
+			width: $(window).width(),
+			height: $(window).height()
+		};
+		$('#carousel4').css( 'width', newCss.width*4 );
+		$('#carousel4').parent().css( newCss );
+		$('#carousel4 div').css( newCss );
+	}).resize();
+ 
+	$('select#fx').change(function() {
+		
+	});
+});
+
+//carousel 3
 
 	$(function() {
 		$('#slider3').carouFredSel({
@@ -67,7 +98,7 @@ $(document).ready(function () {
 			},
 			scroll: {
 				items: 1,
-				timeoutDuration : 5000,
+				timeoutDuration : 7500,
 				onBefore: function(data) {
 	 
 					//	find current and next slide
